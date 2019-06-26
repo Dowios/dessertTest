@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700&display=swap&subset=chinese-traditional');
+
+body{
+	background-image: url(../images/cake_bg.jpg);
+	background-repeat: repeat;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.box{
+	position: relative;
+	width: 800px;
+	height: 700px;
+	overflow: hidden;
+}
+
+.title{
+	display: none;
+	position: absolute;
+	background-image: url(../images/title.png);
+	width: 367px;
+	height: 410px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 99;
+}
+.pie{
+	display: none;
+	position: absolute;
+	background-image: url(../images/pie.png);
+	width: 760px;
+	height: 760px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.blank{
+	display: none;
+	position: absolute;
+	background-image: url(../images/pie_blank.png);
+	width: 300px;
+	height: 300px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.pie_base{
+	display: none;
+	position: absolute;
+	background-image: url(../images/pie_base.png);
+	width: 760px;
+	height: 760px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.go{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 280px;
+	text-align: center;
+}
+.go *{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#name{
+	width: 200px;
+}
+.q1{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 280px;
+	text-align: center;
+}
+.q1 *{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.q2{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 280px;
+	text-align: center;
+}
+.q2 *{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.q3{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 280px;
+	text-align: center;
+}
+.q3 *{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.result{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 280px;
+	text-align: center;
+}
+#analysis{
+	display: none;
+}
